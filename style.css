@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h3{
+    margin: 10px 0 20px;
+    text-align: center;
+    font-family: 'Supermercado One', cursive, sans-serif;
+    color: black;
+}
+.container{
+    width: 500px;
+}
+textarea{
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 205, 151);
+    padding: 10px;
+    margin: 0 0 20px;
+    font-size: 16px;
+    font-family: 'Supermercado One', cursive, sans-serif;
+}
+textarea:hover{
+    background-color: rgb(217, 255, 0);
+}
+.tag {
+    background-color: coral;
+    color: rgb(13, 0, 197);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 16px;
+    display: inline-block;
+    font-family: 'Supermercado One', cursive, sans-serif;
+}
+.tag.highlight{
+    background-color: rgb(83, 74, 204);
+}
